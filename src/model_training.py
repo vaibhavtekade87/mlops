@@ -58,5 +58,5 @@ api.upload_file(
     repo_type="model"
 )
 
-print("Model training completed!")
+print("Model training completed")
 print("Best Parameters:", grid_search.best_params_)
