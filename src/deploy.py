@@ -19,4 +19,4 @@ api.upload_file(path_or_fileobj="deployment/Dockerfile", path_in_repo="Dockerfil
 api.upload_file(path_or_fileobj="deployment/app.py", path_in_repo="app.py", repo_id="tekadevaibhav/tourism-package-app", repo_type="space")
 api.upload_file(path_or_fileobj="deployment/requirements.txt", path_in_repo="requirements.txt", repo_id="tekadevaibhav/tourism-package-app", repo_type="space")
 
-print("Deployment to Hugging Face Space completed!")
+print("Deployment to Hugging Face Space completed")

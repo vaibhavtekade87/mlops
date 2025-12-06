@@ -41,4 +41,4 @@ os.makedirs("data", exist_ok=True)
 train_df.to_csv("data/train.csv", index=False)
 test_df.to_csv("data/test.csv", index=False)
 
-print("Data preparation completed!")
+print("Data preparation completed")
