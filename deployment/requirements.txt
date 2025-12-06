@@ -1,6 +1,6 @@
 streamlit
-pandas
-joblib
-scikit-learn
-xgboost
+pandas==2.2.2
+joblib==1.5.2
+scikit-learn==1.6.1
+xgboost==2.1.4
 huggingface_hub
