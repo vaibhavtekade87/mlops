@@ -7,8 +7,8 @@ from huggingface_hub import hf_hub_download
 model_path = hf_hub_download(repo_id="tekadevaibhav/tourism-package-model", filename="best_model.pkl")
 model = joblib.load(model_path)
 
-st.title("Wellness Tourism Package Prediction")
-st.write("Predict whether a customer will purchase the Wellness Tourism Package")
+st.title("Visit with Us Tourism Package Prediction")
+st.write("Predict whether a customer will purchase the Visit with Us Tourism Package")
 
 # Get inputs from user
 col1, col2 = st.columns(2)
@@ -62,6 +62,6 @@ input_data = pd.DataFrame({
 if st.button("Predict"):
     prediction = model.predict(input_data)
     if prediction[0] == 1:
-        st.success("Customer is likely to PURCHASE the Wellness Tourism Package!")
+        st.success("Customer is likely to PURCHASE the Visit with Us Tourism Package!")
     else:
         st.error("Customer is NOT likely to purchase the package.")
